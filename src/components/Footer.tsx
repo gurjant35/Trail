@@ -92,9 +92,15 @@ export default function Footer() {
             <h4 className="text-sm font-semibold tracking-[0.15em] uppercase text-white mb-6">Contact</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+14165550123" className="flex items-start gap-3 group">
+                <a href="tel:+16473255635" className="flex items-start gap-3 group">
                   <Phone size={16} className="text-gold-500 mt-0.5 shrink-0" />
-                  <span className="text-sm text-white/50 group-hover:text-white transition-colors">+1 (416) 555-0123</span>
+                  <span className="text-sm text-white/50 group-hover:text-white transition-colors">+1 (647) 325-5635</span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:+16476424080" className="flex items-start gap-3 group">
+                  <Phone size={16} className="text-gold-500 mt-0.5 shrink-0" />
+                  <span className="text-sm text-white/50 group-hover:text-white transition-colors">+1 (647) 642-4080</span>
                 </a>
               </li>
               <li>

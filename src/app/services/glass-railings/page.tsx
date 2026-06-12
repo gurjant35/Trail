@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const service = {
   title: 'Glass Railings',
   subtitle: 'Frameless Safety Elegance',
-  heroImage: 'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=1920&q=85',
+  heroImage: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
   description:
     'Our glass railing systems combine unobstructed views with code-compliant safety. Whether for interior staircases, outdoor balconies, or commercial mezzanines, our tempered glass panels deliver a sleek, modern aesthetic that stands the test of time.',
   subcategories: [
@@ -28,14 +28,19 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80',
-          title: 'Interior Glass Staircase',
-          description: 'Frameless glass panel staircase railing',
+          src: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Interior Glass Staircase Railing',
+          description: 'Modern building staircase with frameless glass railing',
         },
         {
-          src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80',
-          title: 'Open Staircase Design',
-          description: 'Side-mounted glass railing system',
+          src: 'https://images.pexels.com/photos/10135334/pexels-photo-10135334.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Concrete Staircase with Glass Railings',
+          description: 'Contemporary concrete stairs with full glass panel railing',
+        },
+        {
+          src: 'https://images.pexels.com/photos/8134804/pexels-photo-8134804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Wooden Staircase Glass Railing',
+          description: 'Premium wood and glass railing combination',
         },
       ],
     },
@@ -54,14 +59,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?w=800&q=80',
-          title: 'Balcony Glass Railing',
-          description: 'Weatherproof deck railing system',
+          src: 'https://images.pexels.com/photos/18803873/pexels-photo-18803873.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Open Riser Staircase Glass Railing',
+          description: 'Shopping mall open riser staircase with glass railings',
         },
         {
-          src: 'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=801&q=80',
-          title: 'Deck View Railing',
-          description: 'Post-mounted exterior glass panels',
+          src: 'https://images.pexels.com/photos/5997977/pexels-photo-5997977.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Modern Apartment Glass Railing',
+          description: 'Staircase with glass wall in contemporary apartment',
         },
       ],
     },
@@ -80,9 +85,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
-          title: 'Commercial Glass Railing',
-          description: 'Multi-level atrium glass railing system',
+          src: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Commercial Glass Railing System',
+          description: 'Multi-story commercial building glass railing',
+        },
+        {
+          src: 'https://images.pexels.com/photos/10135334/pexels-photo-10135334.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Premium Frameless Commercial Railing',
+          description: 'High-load frameless glass railing for commercial spaces',
         },
       ],
     },

@@ -7,22 +7,32 @@ import GalleryGrid from '@/components/GalleryGrid';
 const categories = ['All', 'Shower Glass', 'Glass Railings', 'Closet Doors', 'Vanity Mirrors', 'Barn Doors', 'Office Partitions'];
 
 const allImages = [
-  { src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80', title: 'Frameless Shower Enclosure', description: 'Custom inline frameless shower', category: 'Shower Glass' },
-  { src: 'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800&q=80', title: 'Walk-In Shower', description: 'Minimalist walk-in shower design', category: 'Shower Glass' },
-  { src: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80', title: 'L-Shape Shower', description: 'Corner L-shape installation', category: 'Shower Glass' },
-  { src: 'https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80', title: 'Staircase Railing', description: 'Interior glass staircase railing', category: 'Glass Railings' },
-  { src: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80', title: 'Balcony Railing', description: 'Exterior balcony glass panels', category: 'Glass Railings' },
-  { src: 'https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?w=800&q=80', title: 'Deck Glass Railing', description: 'Outdoor deck glass system', category: 'Glass Railings' },
-  { src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80', title: 'Mirrored Sliding Doors', description: 'Full-length mirror closet doors', category: 'Closet Doors' },
-  { src: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80', title: 'Clear Glass Closet', description: 'Frameless clear sliding doors', category: 'Closet Doors' },
-  { src: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=800&q=80', title: 'Vanity Mirror', description: 'Custom frameless bathroom mirror', category: 'Vanity Mirrors' },
-  { src: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=801&q=80', title: 'LED Backlit Mirror', description: 'Warm LED vanity mirror', category: 'Vanity Mirrors' },
-  { src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80', title: 'Glass Barn Door', description: 'Black hardware barn door installation', category: 'Barn Doors' },
-  { src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=803&q=80', title: 'Frosted Barn Door', description: 'Privacy frosted glass barn door', category: 'Barn Doors' },
-  { src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80', title: 'Office Partition', description: 'Open-plan office glass dividers', category: 'Office Partitions' },
-  { src: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80', title: 'Executive Office', description: 'Private executive glass wall', category: 'Office Partitions' },
-  { src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=802&q=80', title: 'Neo Angle Shower', description: 'Neo angle corner enclosure', category: 'Shower Glass' },
-  { src: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80', title: 'Glass Meeting Room', description: 'Corporate meeting room glass', category: 'Office Partitions' },
+  // Shower Glass
+  { src: 'https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Frameless Glass Shower Room', description: 'Crystal-clear frameless shower enclosure', category: 'Shower Glass' },
+  { src: 'https://images.pexels.com/photos/7168077/pexels-photo-7168077.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Modern Shower with Glass Door', description: 'Sleek glass shower door with matte black hardware', category: 'Shower Glass' },
+  { src: 'https://images.pexels.com/photos/6436770/pexels-photo-6436770.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Walk-In Shower Cabin', description: 'Open-concept walk-in glass shower', category: 'Shower Glass' },
+  { src: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Luxury Bathroom Shower', description: 'High-end bathroom with glass shower enclosure', category: 'Shower Glass' },
+  { src: 'https://images.pexels.com/photos/6523301/pexels-photo-6523301.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Shower Cabin Interior', description: 'Premium glass shower cabin with tiling', category: 'Shower Glass' },
+  // Glass Railings
+  { src: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Modern Staircase Glass Railing', description: 'Interior building staircase with frameless glass railing', category: 'Glass Railings' },
+  { src: 'https://images.pexels.com/photos/10135334/pexels-photo-10135334.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Concrete Staircase Glass Railing', description: 'Full glass panel railing on concrete stairs', category: 'Glass Railings' },
+  { src: 'https://images.pexels.com/photos/8134804/pexels-photo-8134804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Wooden Staircase Glass Railing', description: 'Premium wood treads with glass railing system', category: 'Glass Railings' },
+  { src: 'https://images.pexels.com/photos/18803873/pexels-photo-18803873.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Open Riser Glass Railing', description: 'Commercial open-riser staircase with glass railings', category: 'Glass Railings' },
+  // Closet Doors
+  { src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Glass Panel Closet Door', description: 'Sliding glass panel room door', category: 'Closet Doors' },
+  { src: 'https://images.pexels.com/photos/18285949/pexels-photo-18285949.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Luxury Bedroom Closet', description: 'Premium wardrobe in luxurious bedroom', category: 'Closet Doors' },
+  // Vanity Mirrors
+  { src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Custom Vanity Mirrors', description: 'Premium frameless bathroom vanity mirrors', category: 'Vanity Mirrors' },
+  { src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Mirror Over Bathroom Sink', description: 'Frameless vanity mirror over modern sink', category: 'Vanity Mirrors' },
+  { src: 'https://images.pexels.com/photos/19966751/pexels-photo-19966751.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'LED Mirror Reflection', description: 'Backlit bathroom mirror with warm LED glow', category: 'Vanity Mirrors' },
+  // Barn Doors
+  { src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=601', title: 'Interior Glass Barn Door', description: 'Modern glass panel sliding barn door', category: 'Barn Doors' },
+  { src: 'https://images.pexels.com/photos/5997977/pexels-photo-5997977.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Glass Barn Door Partition', description: 'Contemporary apartment glass sliding partition', category: 'Barn Doors' },
+  // Office Partitions
+  { src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Modern Office Glass Walls', description: 'Stylish office with full glass wall partitions', category: 'Office Partitions' },
+  { src: 'https://images.pexels.com/photos/6794926/pexels-photo-6794926.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Glass Conference Room', description: 'Corridor with glass-walled conference room', category: 'Office Partitions' },
+  { src: 'https://images.pexels.com/photos/6794929/pexels-photo-6794929.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Office Center Glass Partition', description: 'Modern office with interior glass corridor walls', category: 'Office Partitions' },
+  { src: 'https://images.pexels.com/photos/6044814/pexels-photo-6044814.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Private Office Glass Wall', description: 'Executive workspace with glass wall partition', category: 'Office Partitions' },
 ];
 
 export default function GalleryPage() {

@@ -16,7 +16,8 @@ type FormData = {
 };
 
 const contactInfo = [
-  { icon: Phone, label: 'Phone', value: '+1 (416) 555-0123', href: 'tel:+14165550123' },
+  { icon: Phone, label: 'Phone 1', value: '+1 (647) 325-5635', href: 'tel:+16473255635' },
+  { icon: Phone, label: 'Phone 2', value: '+1 (647) 642-4080', href: 'tel:+16476424080' },
   { icon: Mail, label: 'Email', value: 'info@torontopremiumglass.ca', href: 'mailto:info@torontopremiumglass.ca' },
   { icon: MapPin, label: 'Service Area', value: 'Toronto & Greater Toronto Area', href: null },
   { icon: Clock, label: 'Hours', value: 'Mon–Fri: 8am–6pm · Sat: 9am–4pm', href: null },
@@ -90,7 +91,7 @@ export default function ContactPage() {
                   <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <a
-                  href="tel:+14165550123"
+                  href="tel:+16473255635"
                   className="btn-outline-gold flex items-center justify-between px-6 py-4 rounded-lg group"
                 >
                   <span>Call Us Now</span>

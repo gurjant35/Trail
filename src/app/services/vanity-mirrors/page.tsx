@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const service = {
   title: 'Vanity Mirrors',
   subtitle: 'Bespoke Bathroom Reflections',
-  heroImage: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=1920&q=85',
+  heroImage: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
   description:
     'A stunning vanity mirror is the centerpiece of any premium bathroom. Our custom mirrors are precision-cut, edge-polished, and available in any size or shape. From simple frameless panels to LED-backlit statement pieces, we craft mirrors that elevate your space.',
   subcategories: [
@@ -28,14 +28,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=800&q=80',
-          title: 'Frameless Vanity Mirror',
-          description: 'Custom cut frameless bathroom mirror',
+          src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Premium Vanity Mirrors',
+          description: 'Custom frameless bathroom vanity mirrors',
         },
         {
-          src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=804&q=80',
-          title: 'Double Vanity Mirror',
-          description: 'Wide span double sink mirror',
+          src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Mirror Over Sink',
+          description: 'Elegant frameless mirror above modern bathroom sink',
         },
       ],
     },
@@ -54,9 +54,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=801&q=80',
-          title: 'LED Backlit Mirror',
-          description: 'Warm backlit glow vanity mirror',
+          src: 'https://images.pexels.com/photos/19966751/pexels-photo-19966751.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'LED Mirror Lights Reflection',
+          description: 'Premium LED backlit bathroom mirror glow effect',
+        },
+        {
+          src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Backlit Vanity Mirror',
+          description: 'Warm LED-edge lit vanity mirror installation',
         },
       ],
     },
@@ -75,14 +80,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=802&q=80',
-          title: 'Arch Vanity Mirror',
-          description: 'Arched frameless bathroom mirror',
+          src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Custom Shape Mirror',
+          description: 'Precision-cut shaped bathroom mirror',
         },
         {
-          src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=801&q=80',
-          title: 'Round Mirror Cluster',
-          description: 'Multiple round mirror arrangement',
+          src: 'https://images.pexels.com/photos/19966751/pexels-photo-19966751.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Round Arch Mirror',
+          description: 'Signature arched frameless bathroom mirror',
         },
       ],
     },

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const service = {
   title: 'Barn Doors',
   subtitle: 'Industrial Meets Elegant',
-  heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=85',
+  heroImage: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
   description:
     'Glass barn doors bring a perfect blend of rustic-industrial character and modern openness to any space. Gliding effortlessly on exposed hardware, they\'re as functional as they are beautiful — creating visual separation without sacrificing natural light.',
   subcategories: [
@@ -28,14 +28,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+          src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Interior Glass Barn Door',
-          description: 'Frameless glass panel on black barn hardware',
+          description: 'Glass panel room door on premium hardware',
         },
         {
-          src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=803&q=80',
-          title: 'Frosted Barn Door',
-          description: 'Privacy frosted glass barn door',
+          src: 'https://images.pexels.com/photos/5997977/pexels-photo-5997977.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Glass Partition Barn Door',
+          description: 'Modern apartment glass panel sliding door',
         },
       ],
     },
@@ -54,9 +54,9 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=801&q=80',
+          src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Office Glass Barn Door',
-          description: 'Commercial space glass divider',
+          description: 'Modern office glass sliding partition door',
         },
       ],
     },
@@ -75,9 +75,9 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=801&q=80',
-          title: 'Black Hardware Detail',
-          description: 'Premium matte black track system',
+          src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Premium Barn Door Hardware',
+          description: 'High-quality matte black track and hardware system',
         },
       ],
     },

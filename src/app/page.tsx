@@ -31,15 +31,15 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <BeforeAfterSlider
-              beforeImage="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80"
-              afterImage="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+              beforeImage="https://images.pexels.com/photos/7018822/pexels-photo-7018822.jpeg?auto=compress&cs=tinysrgb&w=800&h=600"
+              afterImage="https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600"
               beforeLabel="Before"
               afterLabel="After"
               alt="Shower glass transformation"
             />
             <BeforeAfterSlider
-              beforeImage="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
-              afterImage="https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80"
+              beforeImage="https://images.pexels.com/photos/5184791/pexels-photo-5184791.jpeg?auto=compress&cs=tinysrgb&w=800&h=600"
+              afterImage="https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600"
               beforeLabel="Before"
               afterLabel="After"
               alt="Glass railing transformation"

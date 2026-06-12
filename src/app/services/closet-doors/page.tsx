@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const service = {
   title: 'Closet Doors',
   subtitle: 'Elegant Space Solutions',
-  heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=85',
+  heroImage: 'https://images.pexels.com/photos/18285949/pexels-photo-18285949.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
   description:
     'Our custom glass closet doors transform ordinary storage into a design statement. From mirrored panels that expand your space visually to frosted glass that conceals with style, every door is crafted to your exact measurements.',
   subcategories: [
@@ -28,14 +28,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
-          title: 'Mirror Sliding Doors',
-          description: 'Full-length mirrored sliding closet panels',
+          src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Glass Panel Sliding Door',
+          description: 'Premium room divider with glass panel sliding doors',
         },
         {
-          src: 'https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&q=80',
-          title: 'Clear Glass Sliding',
-          description: 'Frameless clear glass bypass doors',
+          src: 'https://images.pexels.com/photos/18285949/pexels-photo-18285949.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Luxurious Bedroom Closet',
+          description: 'Luxury bedroom with elegant wardrobe doors',
         },
       ],
     },
@@ -54,9 +54,9 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=801&q=80',
-          title: 'Hinged Glass Door Pair',
-          description: 'French-style glass closet doors',
+          src: 'https://images.pexels.com/photos/18285949/pexels-photo-18285949.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Premium Hinged Closet Door',
+          description: 'Floor-to-ceiling hinged glass closet door',
         },
       ],
     },
@@ -75,14 +75,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=800&q=80',
-          title: 'Full-Length Mirror Closet',
-          description: 'Floor-to-ceiling mirrored wardrobe doors',
+          src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Full-Length Vanity Mirrors',
+          description: 'Premium floor-to-ceiling mirrored wardrobe panels',
         },
         {
-          src: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=802&q=80',
-          title: 'Frameless Mirror Panels',
-          description: 'Seamless edge-to-edge mirror installation',
+          src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Mirror Closet Reflection',
+          description: 'Seamless mirrored door with frameless edge',
         },
       ],
     },

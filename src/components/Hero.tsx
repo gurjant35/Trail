@@ -18,11 +18,11 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=1920&q=85"
-          alt="Premium glass shower installation"
+          src="https://images.pexels.com/photos/373584/pexels-photo-373584.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080"
+          alt="Toronto skyline buildings looking up with blue sky"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-bottom"
           sizes="100vw"
         />
         <div className="absolute inset-0 hero-overlay" />

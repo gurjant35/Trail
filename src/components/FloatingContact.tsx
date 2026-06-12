@@ -64,7 +64,7 @@ export default function FloatingContact() {
               {/* Quick contact info */}
               <div className="space-y-3">
                 <a
-                  href="tel:+14165550123"
+                  href="tel:+16473255635"
                   className="flex items-center gap-3 p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors group"
                 >
                   <div className="w-8 h-8 rounded-full bg-gold-500/20 flex items-center justify-center shrink-0">
@@ -72,7 +72,19 @@ export default function FloatingContact() {
                   </div>
                   <div>
                     <p className="text-xs text-white/40 uppercase tracking-wide">Call us</p>
-                    <p className="text-sm text-white group-hover:text-gold-400 transition-colors">+1 (416) 555-0123</p>
+                    <p className="text-sm text-white group-hover:text-gold-400 transition-colors">+1 (647) 325-5635</p>
+                  </div>
+                </a>
+                <a
+                  href="tel:+16476424080"
+                  className="flex items-center gap-3 p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors group"
+                >
+                  <div className="w-8 h-8 rounded-full bg-gold-500/20 flex items-center justify-center shrink-0">
+                    <Phone size={14} className="text-gold-400" />
+                  </div>
+                  <div>
+                    <p className="text-xs text-white/40 uppercase tracking-wide">Call us</p>
+                    <p className="text-sm text-white group-hover:text-gold-400 transition-colors">+1 (647) 642-4080</p>
                   </div>
                 </a>
                 <a

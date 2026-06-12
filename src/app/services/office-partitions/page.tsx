@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const service = {
   title: 'Office Partitions',
   subtitle: 'Workspace Transformation',
-  heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=85',
+  heroImage: 'https://images.pexels.com/photos/6794926/pexels-photo-6794926.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
   description:
     'Modern workplaces demand transparency, flexibility, and design excellence. Our office glass partition systems create beautiful, functional spaces that inspire productivity while maintaining the open-concept feel that defines today\'s premium work environments.',
   subcategories: [
@@ -28,14 +28,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
-          title: 'Frameless Office Partition',
-          description: 'Open-plan office with glass dividers',
+          src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Modern Office Glass Walls',
+          description: 'Stylish open-plan office with full glass wall partitions',
         },
         {
-          src: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80',
-          title: 'Executive Office Glass Wall',
-          description: 'Private executive office partition',
+          src: 'https://images.pexels.com/photos/6044814/pexels-photo-6044814.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Private Office Glass Partition',
+          description: 'Executive seating area with glass wall partition',
         },
       ],
     },
@@ -54,9 +54,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80',
-          title: 'Framed Partition System',
-          description: 'Aluminum frame grid partition wall',
+          src: 'https://images.pexels.com/photos/6794927/pexels-photo-6794927.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Office Center Glass Walls',
+          description: 'Modern office hall with aluminum-framed glass walls',
+        },
+        {
+          src: 'https://images.pexels.com/photos/6794929/pexels-photo-6794929.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Office Corridor Glass Partition',
+          description: 'Contemporary office corridor with glass partition system',
         },
       ],
     },
@@ -75,14 +80,14 @@ const service = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=801&q=80',
-          title: 'Glass Meeting Room',
-          description: 'Complete glass boardroom enclosure',
+          src: 'https://images.pexels.com/photos/6794926/pexels-photo-6794926.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Glass Conference Room',
+          description: 'Modern corridor with glass-walled conference room',
         },
         {
-          src: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=801&q=80',
-          title: 'Conference Room Glass',
-          description: 'Premium conference room glass walls',
+          src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Glass Meeting Room Partition',
+          description: 'Premium glass boardroom with natural light',
         },
       ],
     },

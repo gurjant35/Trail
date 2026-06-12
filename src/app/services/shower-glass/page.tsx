@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 const showerGlassService = {
   title: 'Shower Glass',
   subtitle: 'Custom Glass Enclosures',
-  heroImage: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=1920&q=85',
+  heroImage: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080',
   description:
     'Transform your bathroom into a spa-like retreat with our precision-crafted shower glass enclosures. From sleek frameless designs to practical semi-frameless solutions, every installation is custom-fabricated to your exact specifications using premium tempered safety glass.',
   subcategories: [
@@ -28,19 +28,19 @@ const showerGlassService = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80',
+          src: 'https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Frameless Inline Shower',
-          description: 'Floor-to-ceiling frameless glass panel',
+          description: 'Crystal-clear frameless glass shower enclosure',
         },
         {
-          src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=801&q=80',
-          title: 'Semi-Frameless Inline',
-          description: 'Walk-in shower with minimal framing',
+          src: 'https://images.pexels.com/photos/7168077/pexels-photo-7168077.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Modern Shower Room with Glass Door',
+          description: 'Sleek glass door shower with matte black hardware',
         },
         {
-          src: 'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800&q=80',
-          title: 'Walk-In Shower Panel',
-          description: 'Open-concept wet room design',
+          src: 'https://images.pexels.com/photos/6436770/pexels-photo-6436770.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Walk-In Shower Cabin',
+          description: 'Open-concept walk-in shower with tile surround',
         },
       ],
     },
@@ -59,14 +59,14 @@ const showerGlassService = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80',
-          title: 'Corner L-Shape Enclosure',
-          description: 'Premium pivot door L-shape design',
+          src: 'https://images.pexels.com/photos/6523301/pexels-photo-6523301.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'L-Shape Shower Cabin',
+          description: 'Premium corner shower enclosure with glass panels',
         },
         {
-          src: 'https://images.unsplash.com/photo-1620626011761-996317702782?w=800&q=80',
-          title: 'L-Shape with Sliding Door',
-          description: 'Space-saving sliding panel option',
+          src: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Luxury L-Shape Bathroom',
+          description: 'High-end L-shape shower with gold accents',
         },
       ],
     },
@@ -85,14 +85,14 @@ const showerGlassService = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=802&q=80',
-          title: 'Neo Angle Enclosure',
-          description: 'Classic neo angle corner shower',
+          src: 'https://images.pexels.com/photos/7018822/pexels-photo-7018822.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Contemporary Shower Enclosure',
+          description: 'Neo angle glass enclosure with clean tiling',
         },
         {
-          src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80',
-          title: 'Custom Neo Angle',
-          description: 'Extended panel neo angle design',
+          src: 'https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Clear Glass Shower Room',
+          description: 'Crystal-clear neo angle corner shower',
         },
       ],
     },
@@ -111,19 +111,19 @@ const showerGlassService = {
       ],
       images: [
         {
-          src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
-          title: 'Designer Custom Shower',
-          description: 'Bespoke floor-to-ceiling design',
+          src: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Luxury Custom Shower',
+          description: 'Bespoke designer bathroom with premium glass',
         },
         {
-          src: 'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=801&q=80',
-          title: 'Wet Room Design',
-          description: 'Seamless wet room concept',
+          src: 'https://images.pexels.com/photos/7168077/pexels-photo-7168077.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Designer Glass Shower',
+          description: 'Custom frameless shower with black hardware',
         },
         {
-          src: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=803&q=80',
-          title: 'Curved Glass Shower',
-          description: 'Premium curved glass enclosure',
+          src: 'https://images.pexels.com/photos/6523301/pexels-photo-6523301.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
+          title: 'Open Plan Wet Room',
+          description: 'Seamless wet room glass enclosure',
         },
       ],
     },
