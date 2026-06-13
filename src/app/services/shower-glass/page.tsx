@@ -28,6 +28,16 @@ const showerGlassService = {
       ],
       images: [
         {
+          src: '/gallery/shower-frameless-matte-black.jpg',
+          title: 'Frameless Shower – Matte Black Hardware',
+          description: 'Custom frameless enclosure with 10mm glass and matte black fittings',
+        },
+        {
+          src: '/gallery/shower-frameless-angle.jpg',
+          title: 'Frameless Inline Shower – Side View',
+          description: 'Clean lines, dark-tile floor and white vertical tile surround',
+        },
+        {
           src: 'https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Frameless Inline Shower',
           description: 'Crystal-clear frameless glass shower enclosure',
@@ -58,6 +68,11 @@ const showerGlassService = {
         'Anti-limescale glass coating',
       ],
       images: [
+        {
+          src: '/gallery/shower-double-marble.jpg',
+          title: 'Double Shower – Full Marble Surround',
+          description: 'Dual-head frameless shower with Calacatta marble walls and matte black hardware',
+        },
         {
           src: 'https://images.pexels.com/photos/6523301/pexels-photo-6523301.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'L-Shape Shower Cabin',
@@ -110,6 +125,11 @@ const showerGlassService = {
         'Complex geometry welcome',
       ],
       images: [
+        {
+          src: '/gallery/shower-dark-marble-spa.jpg',
+          title: 'Spa-Style Shower – Dark Marble',
+          description: 'Frameless glass enclosure with dark Nero marble surround and pebble floor',
+        },
         {
           src: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Luxury Custom Shower',

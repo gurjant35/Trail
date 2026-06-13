@@ -28,6 +28,21 @@ const service = {
       ],
       images: [
         {
+          src: '/gallery/railing-stairs-black-hardware.jpg',
+          title: 'Open-Riser Staircase – Matte Black Hardware',
+          description: 'Frameless glass railing with point-fixed matte black clamps on open-riser oak stairs',
+        },
+        {
+          src: '/gallery/railing-double-height-staircase.jpg',
+          title: 'Double-Height Staircase Glass Railing',
+          description: 'Full glass railing system spanning two residential floors with oak treads',
+        },
+        {
+          src: '/gallery/railing-detail-black-hardware.jpg',
+          title: 'Glass Railing – Close-Up Detail',
+          description: 'Precision-fitted standoffs and matte black top rail on light-wood stairs',
+        },
+        {
           src: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Interior Glass Staircase Railing',
           description: 'Modern building staircase with frameless glass railing',

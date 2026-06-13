@@ -28,6 +28,11 @@ const service = {
       ],
       images: [
         {
+          src: '/gallery/closet-ribbed-glass-sliding.jpg',
+          title: 'Ribbed Glass Sliding Closet Doors',
+          description: 'Reeded/fluted glass panels in champagne aluminum frames against marble-look wall',
+        },
+        {
           src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Glass Panel Sliding Door',
           description: 'Premium room divider with glass panel sliding doors',

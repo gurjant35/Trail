@@ -28,6 +28,16 @@ const service = {
       ],
       images: [
         {
+          src: '/gallery/barn-door-frosted-glass.jpg',
+          title: 'Frosted Glass Door Panel',
+          description: 'Full-height frosted glass panel with satin chrome hardware for privacy and light diffusion',
+        },
+        {
+          src: '/gallery/barn-door-frosted-sliding.jpg',
+          title: 'Frosted Sliding Glass Partition',
+          description: 'Double frosted glass panels as room divider between kitchen and hallway',
+        },
+        {
           src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
           title: 'Interior Glass Barn Door',
           description: 'Glass panel room door on premium hardware',
