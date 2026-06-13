@@ -27,42 +27,25 @@ const service = {
         'Same-week installation',
       ],
       images: [
-        {
-          src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Premium Vanity Mirrors',
-          description: 'Custom frameless bathroom vanity mirrors',
-        },
-        {
-          src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Mirror Over Sink',
-          description: 'Elegant frameless mirror above modern bathroom sink',
-        },
+        { src: '/gallery/mirror-bathroom-sconces.jpg', title: 'Custom Bathroom Mirror with Sconces', description: 'Precision-cut vanity mirror flanked by contemporary wall sconces' },
       ],
     },
     {
-      id: 'backlit',
-      title: 'LED Backlit Mirrors',
+      id: 'commercial',
+      title: 'Commercial & Gym Mirrors',
       description:
-        'Transform your bathroom with premium LED backlit mirrors that provide even, flattering light. Available with dimmer controls, anti-fog, and colour temperature adjustment.',
+        'Large-format mirror installations for fitness studios, dance halls, retail fitting rooms, and commercial spaces. We supply and install full wall mirror systems for any commercial application.',
       benefits: [
-        'Warm & cool light modes',
-        'Dimmer switch included',
-        'Anti-fog technology',
-        'Energy-efficient LED',
-        'Touch or rocker switch',
-        'IP44 waterproof rated',
+        'Wall-to-wall mirror systems',
+        'Safety-backed mirror glass',
+        'Frameless or framed options',
+        'Fast commercial installation',
+        'Any size panel available',
+        'Gym & studio specialists',
       ],
       images: [
-        {
-          src: 'https://images.pexels.com/photos/19966751/pexels-photo-19966751.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'LED Mirror Lights Reflection',
-          description: 'Premium LED backlit bathroom mirror glow effect',
-        },
-        {
-          src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Backlit Vanity Mirror',
-          description: 'Warm LED-edge lit vanity mirror installation',
-        },
+        { src: '/gallery/mirror-gym-wall.jpg', title: 'Commercial Gym Mirror Wall', description: 'Large-format mirror wall installation in commercial fitness studio' },
+        { src: '/gallery/mirror-gym-column.jpg', title: 'Gym Column Mirror Installation', description: 'Custom framed mirror panel on gym column with full-room reflection' },
       ],
     },
     {
@@ -78,18 +61,7 @@ const service = {
         'Designer statement pieces',
         'Coordination with fixtures',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Custom Shape Mirror',
-          description: 'Precision-cut shaped bathroom mirror',
-        },
-        {
-          src: 'https://images.pexels.com/photos/19966751/pexels-photo-19966751.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Round Arch Mirror',
-          description: 'Signature arched frameless bathroom mirror',
-        },
-      ],
+      images: [],
     },
   ],
 };

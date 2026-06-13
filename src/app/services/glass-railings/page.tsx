@@ -27,36 +27,9 @@ const service = {
         'Custom height available',
       ],
       images: [
-        {
-          src: '/gallery/railing-stairs-black-hardware.jpg',
-          title: 'Open-Riser Staircase – Matte Black Hardware',
-          description: 'Frameless glass railing with point-fixed matte black clamps on open-riser oak stairs',
-        },
-        {
-          src: '/gallery/railing-double-height-staircase.jpg',
-          title: 'Double-Height Staircase Glass Railing',
-          description: 'Full glass railing system spanning two residential floors with oak treads',
-        },
-        {
-          src: '/gallery/railing-detail-black-hardware.jpg',
-          title: 'Glass Railing – Close-Up Detail',
-          description: 'Precision-fitted standoffs and matte black top rail on light-wood stairs',
-        },
-        {
-          src: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Interior Glass Staircase Railing',
-          description: 'Modern building staircase with frameless glass railing',
-        },
-        {
-          src: 'https://images.pexels.com/photos/10135334/pexels-photo-10135334.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Concrete Staircase with Glass Railings',
-          description: 'Contemporary concrete stairs with full glass panel railing',
-        },
-        {
-          src: 'https://images.pexels.com/photos/8134804/pexels-photo-8134804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Wooden Staircase Glass Railing',
-          description: 'Premium wood and glass railing combination',
-        },
+        { src: '/gallery/railing-stairs-black-hardware.jpg', title: 'Open-Riser Staircase – Matte Black Clamps', description: 'Frameless glass railing with point-fixed matte black hardware on open-riser oak stairs' },
+        { src: '/gallery/railing-double-height-staircase.jpg', title: 'Double-Height Staircase Glass Railing', description: 'Full glass railing system spanning two residential floors with oak treads' },
+        { src: '/gallery/railing-detail-black-hardware.jpg', title: 'Glass Railing – Close-Up Hardware Detail', description: 'Precision-fitted standoffs and matte black top rail on light-wood stairs' },
       ],
     },
     {
@@ -72,18 +45,7 @@ const service = {
         'Frost & corrosion resistant',
         'P.Eng certified systems',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/18803873/pexels-photo-18803873.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Open Riser Staircase Glass Railing',
-          description: 'Shopping mall open riser staircase with glass railings',
-        },
-        {
-          src: 'https://images.pexels.com/photos/5997977/pexels-photo-5997977.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Modern Apartment Glass Railing',
-          description: 'Staircase with glass wall in contemporary apartment',
-        },
-      ],
+      images: [],
     },
     {
       id: 'commercial',
@@ -99,16 +61,7 @@ const service = {
         'Bulk project pricing',
       ],
       images: [
-        {
-          src: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Commercial Glass Railing System',
-          description: 'Multi-story commercial building glass railing',
-        },
-        {
-          src: 'https://images.pexels.com/photos/10135334/pexels-photo-10135334.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Premium Frameless Commercial Railing',
-          description: 'High-load frameless glass railing for commercial spaces',
-        },
+        { src: '/gallery/partition-staircase-black-frame.jpg', title: 'Glass Partition Wall – Matte Black Frame', description: 'Full-height frameless glass wall with matte black frame enclosing staircase area' },
       ],
     },
   ],

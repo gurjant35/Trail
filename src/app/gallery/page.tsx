@@ -7,42 +7,42 @@ import GalleryGrid from '@/components/GalleryGrid';
 const categories = ['All', 'Shower Glass', 'Glass Railings', 'Closet Doors', 'Vanity Mirrors', 'Barn Doors', 'Office Partitions'];
 
 const allImages = [
-  // Shower Glass – real project photos first
+  // Shower Glass
   { src: '/gallery/shower-frameless-matte-black.jpg', title: 'Frameless Shower – Matte Black Hardware', description: 'Custom frameless enclosure with 10mm glass and matte black fittings', category: 'Shower Glass' },
-  { src: '/gallery/shower-frameless-angle.jpg', title: 'Frameless Inline Shower – Side View', description: 'Clean lines, dark-tile floor and white vertical tile surround', category: 'Shower Glass' },
-  { src: '/gallery/shower-double-marble.jpg', title: 'Double Shower – Full Marble Surround', description: 'Dual-head frameless shower with Calacatta marble walls and matte black hardware', category: 'Shower Glass' },
-  { src: '/gallery/shower-dark-marble-spa.jpg', title: 'Spa-Style Shower – Dark Marble', description: 'Frameless glass enclosure with dark Nero marble surround and pebble floor', category: 'Shower Glass' },
-  { src: 'https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Frameless Glass Shower Room', description: 'Crystal-clear frameless shower enclosure', category: 'Shower Glass' },
-  { src: 'https://images.pexels.com/photos/7168077/pexels-photo-7168077.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Modern Shower with Glass Door', description: 'Sleek glass shower door with matte black hardware', category: 'Shower Glass' },
-  { src: 'https://images.pexels.com/photos/6436770/pexels-photo-6436770.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Walk-In Shower Cabin', description: 'Open-concept walk-in glass shower', category: 'Shower Glass' },
-  { src: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Luxury Bathroom Shower', description: 'High-end bathroom with glass shower enclosure', category: 'Shower Glass' },
-  { src: 'https://images.pexels.com/photos/6523301/pexels-photo-6523301.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Shower Cabin Interior', description: 'Premium glass shower cabin with tiling', category: 'Shower Glass' },
-  // Glass Railings – real project photos first
-  { src: '/gallery/railing-stairs-black-hardware.jpg', title: 'Open-Riser Staircase – Matte Black Hardware', description: 'Frameless glass railing with point-fixed matte black clamps on open-riser oak stairs', category: 'Glass Railings' },
-  { src: '/gallery/railing-double-height-staircase.jpg', title: 'Double-Height Staircase Glass Railing', description: 'Full glass railing system spanning two residential floors with oak treads', category: 'Glass Railings' },
-  { src: '/gallery/railing-detail-black-hardware.jpg', title: 'Glass Railing – Close-Up Detail', description: 'Precision-fitted standoffs and matte black top rail on light-wood stairs', category: 'Glass Railings' },
-  { src: 'https://images.pexels.com/photos/6444248/pexels-photo-6444248.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Modern Staircase Glass Railing', description: 'Interior building staircase with frameless glass railing', category: 'Glass Railings' },
-  { src: 'https://images.pexels.com/photos/10135334/pexels-photo-10135334.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Concrete Staircase Glass Railing', description: 'Full glass panel railing on concrete stairs', category: 'Glass Railings' },
-  { src: 'https://images.pexels.com/photos/8134804/pexels-photo-8134804.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Wooden Staircase Glass Railing', description: 'Premium wood treads with glass railing system', category: 'Glass Railings' },
-  { src: 'https://images.pexels.com/photos/18803873/pexels-photo-18803873.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Open Riser Glass Railing', description: 'Commercial open-riser staircase with glass railings', category: 'Glass Railings' },
-  // Closet Doors – real project photo first
+  { src: '/gallery/shower-frameless-angle.jpg', title: 'Frameless Inline Shower – Side View', description: 'Clean lines with dark-tile floor and white vertical tile surround', category: 'Shower Glass' },
+  { src: '/gallery/shower-double-marble.jpg', title: 'Double Shower – Calacatta Marble', description: 'Dual-head frameless shower with full marble surround and matte black hardware', category: 'Shower Glass' },
+  { src: '/gallery/shower-dark-marble-spa.jpg', title: 'Spa Shower – Dark Nero Marble', description: 'Frameless glass enclosure with dark marble surround and pebble floor', category: 'Shower Glass' },
+  { src: '/gallery/shower-large-pebble-floor.jpg', title: 'Large Walk-In Shower – Pebble Floor', description: 'Wide frameless walk-in enclosure with pebble mosaic floor and matte black hardware', category: 'Shower Glass' },
+  { src: '/gallery/shower-subway-tile-black.jpg', title: 'Subway Tile Shower – Matte Black', description: 'Frameless glass door with glossy subway tile walls and hex mosaic floor', category: 'Shower Glass' },
+  { src: '/gallery/shower-sliding-chrome-marble.jpg', title: 'Sliding Shower Door – Chrome & Marble', description: 'Sliding bypass shower door with chrome hardware and marble-look panels', category: 'Shower Glass' },
+  { src: '/gallery/shower-gold-hardware-marble.jpg', title: 'L-Shape Shower – Brushed Gold Hardware', description: 'Frameless L-shape enclosure with brushed gold/brass fittings and marble surround', category: 'Shower Glass' },
+  { src: '/gallery/shower-corner-chrome.jpg', title: 'Corner Neo Angle Shower', description: 'Frameless corner shower with chrome hardware and light beige tile', category: 'Shower Glass' },
+  { src: '/gallery/shower-walkin-black-frame.jpg', title: 'Walk-In Shower – Black Frame Panel', description: 'Minimalist walk-in shower with black-frame glass panel and matte black fixtures', category: 'Shower Glass' },
+  { src: '/gallery/shower-walkin-panel.jpg', title: 'Walk-In Frameless Panel Shower', description: 'Single-panel walk-in shower with matte black top rail and white tile', category: 'Shower Glass' },
+  { src: '/gallery/shower-ribbed-glass-luxury.jpg', title: 'Ribbed Glass Shower Door – Luxury Bath', description: 'Fluted/reeded glass door panel in a luxury bathroom with freestanding tub', category: 'Shower Glass' },
+  { src: '/gallery/shower-gold-gray-tile.jpg', title: 'Shower – Gold Hardware & Gray Tile', description: 'Semi-frameless shower with champagne gold fittings set in gray tile niche', category: 'Shower Glass' },
+  { src: '/gallery/shower-checkerboard-floor.jpg', title: 'Frameless Shower – Checkerboard Floor', description: 'Clean frameless enclosure above a classic black-and-white marble floor', category: 'Shower Glass' },
+  { src: '/gallery/shower-lshape-marble-tub.jpg', title: 'L-Shape Shower – Marble & Freestanding Tub', description: 'Matte black hardware L-shape enclosure with marble walls and adjacent soaker tub', category: 'Shower Glass' },
+  { src: '/gallery/shower-sliding-sauna.jpg', title: 'Sliding Shower Door – Cedar Sauna Interior', description: 'Custom sliding glass door opening into cedar-lined steam room', category: 'Shower Glass' },
+  // Glass Railings
+  { src: '/gallery/railing-stairs-black-hardware.jpg', title: 'Open-Riser Staircase – Matte Black Clamps', description: 'Frameless glass railing with point-fixed matte black hardware on open-riser oak stairs', category: 'Glass Railings' },
+  { src: '/gallery/railing-double-height-staircase.jpg', title: 'Double-Height Staircase Glass Railing', description: 'Full glass railing system spanning two floors with oak treads', category: 'Glass Railings' },
+  { src: '/gallery/railing-detail-black-hardware.jpg', title: 'Glass Railing – Close-Up Hardware Detail', description: 'Precision-fitted standoffs and matte black top rail on light-wood stairs', category: 'Glass Railings' },
+  // Closet Doors
   { src: '/gallery/closet-ribbed-glass-sliding.jpg', title: 'Ribbed Glass Sliding Closet Doors', description: 'Reeded/fluted glass panels in champagne aluminum frames against marble-look wall', category: 'Closet Doors' },
-  { src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Glass Panel Closet Door', description: 'Sliding glass panel room door', category: 'Closet Doors' },
-  { src: 'https://images.pexels.com/photos/18285949/pexels-photo-18285949.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Luxury Bedroom Closet', description: 'Premium wardrobe in luxurious bedroom', category: 'Closet Doors' },
+  { src: '/gallery/closet-three-panel-frosted-mirror.jpg', title: 'Three-Panel Closet – Frosted & Mirror', description: 'Black-frame three-panel sliding closet with frosted glass and centre mirror', category: 'Closet Doors' },
+  { src: '/gallery/closet-frosted-white-frame.jpg', title: 'Frosted Glass Sliding Closet Doors', description: 'Two-panel frosted glass closet doors with clean white frame', category: 'Closet Doors' },
   // Vanity Mirrors
-  { src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Custom Vanity Mirrors', description: 'Premium frameless bathroom vanity mirrors', category: 'Vanity Mirrors' },
-  { src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Mirror Over Bathroom Sink', description: 'Frameless vanity mirror over modern sink', category: 'Vanity Mirrors' },
-  { src: 'https://images.pexels.com/photos/19966751/pexels-photo-19966751.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'LED Mirror Reflection', description: 'Backlit bathroom mirror with warm LED glow', category: 'Vanity Mirrors' },
-  // Barn Doors – real project photos first
-  { src: '/gallery/barn-door-frosted-glass.jpg', title: 'Frosted Glass Door Panel', description: 'Full-height frosted glass panel with satin chrome hardware for privacy and light diffusion', category: 'Barn Doors' },
+  { src: '/gallery/mirror-bathroom-sconces.jpg', title: 'Custom Bathroom Mirror with Sconces', description: 'Precision-cut vanity mirror flanked by contemporary wall sconces', category: 'Vanity Mirrors' },
+  { src: '/gallery/mirror-gym-wall.jpg', title: 'Commercial Gym Mirror Wall', description: 'Large-format mirror wall installation in commercial fitness studio', category: 'Vanity Mirrors' },
+  { src: '/gallery/mirror-gym-column.jpg', title: 'Gym Column Mirror Installation', description: 'Custom framed mirror panel on gym column with full-room reflection', category: 'Vanity Mirrors' },
+  // Barn Doors
+  { src: '/gallery/barn-door-frosted-glass.jpg', title: 'Frosted Glass Door Panel', description: 'Full-height frosted glass panel with satin chrome hardware', category: 'Barn Doors' },
   { src: '/gallery/barn-door-frosted-sliding.jpg', title: 'Frosted Sliding Glass Partition', description: 'Double frosted glass panels as room divider between kitchen and hallway', category: 'Barn Doors' },
-  { src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=601', title: 'Interior Glass Barn Door', description: 'Modern glass panel sliding barn door', category: 'Barn Doors' },
-  { src: 'https://images.pexels.com/photos/5997977/pexels-photo-5997977.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Glass Barn Door Partition', description: 'Contemporary apartment glass sliding partition', category: 'Barn Doors' },
+  { src: '/gallery/barn-door-steel-frame-open.jpg', title: 'Steel-Frame Glass Barn Door – Open', description: 'Black steel-frame frosted glass barn door in open position', category: 'Barn Doors' },
+  { src: '/gallery/barn-door-steel-frame-closed.jpg', title: 'Steel-Frame Glass Barn Door – Closed', description: 'Floor-to-ceiling black steel-frame frosted glass door panel', category: 'Barn Doors' },
   // Office Partitions
-  { src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Modern Office Glass Walls', description: 'Stylish office with full glass wall partitions', category: 'Office Partitions' },
-  { src: 'https://images.pexels.com/photos/6794926/pexels-photo-6794926.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Glass Conference Room', description: 'Corridor with glass-walled conference room', category: 'Office Partitions' },
-  { src: 'https://images.pexels.com/photos/6794929/pexels-photo-6794929.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Office Center Glass Partition', description: 'Modern office with interior glass corridor walls', category: 'Office Partitions' },
-  { src: 'https://images.pexels.com/photos/6044814/pexels-photo-6044814.jpeg?auto=compress&cs=tinysrgb&w=800&h=600', title: 'Private Office Glass Wall', description: 'Executive workspace with glass wall partition', category: 'Office Partitions' },
+  { src: '/gallery/partition-staircase-black-frame.jpg', title: 'Glass Partition Wall – Matte Black Frame', description: 'Full-height frameless glass wall with matte black frame enclosing staircase area', category: 'Office Partitions' },
 ];
 
 export default function GalleryPage() {

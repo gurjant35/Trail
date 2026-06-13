@@ -27,16 +27,7 @@ const service = {
         'Film & frosting options',
       ],
       images: [
-        {
-          src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Modern Office Glass Walls',
-          description: 'Stylish open-plan office with full glass wall partitions',
-        },
-        {
-          src: 'https://images.pexels.com/photos/6044814/pexels-photo-6044814.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Private Office Glass Partition',
-          description: 'Executive seating area with glass wall partition',
-        },
+        { src: '/gallery/partition-staircase-black-frame.jpg', title: 'Glass Partition Wall – Matte Black Frame', description: 'Full-height frameless glass wall with matte black frame enclosing staircase area' },
       ],
     },
     {
@@ -52,18 +43,7 @@ const service = {
         'Snap-fit panel system',
         'Fast installation',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/6794927/pexels-photo-6794927.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Office Center Glass Walls',
-          description: 'Modern office hall with aluminum-framed glass walls',
-        },
-        {
-          src: 'https://images.pexels.com/photos/6794929/pexels-photo-6794929.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Office Corridor Glass Partition',
-          description: 'Contemporary office corridor with glass partition system',
-        },
-      ],
+      images: [],
     },
     {
       id: 'meeting-rooms',
@@ -78,18 +58,7 @@ const service = {
         'Custom branding',
         'Ceiling track system',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/6794926/pexels-photo-6794926.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Glass Conference Room',
-          description: 'Modern corridor with glass-walled conference room',
-        },
-        {
-          src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Glass Meeting Room Partition',
-          description: 'Premium glass boardroom with natural light',
-        },
-      ],
+      images: [],
     },
   ],
 };

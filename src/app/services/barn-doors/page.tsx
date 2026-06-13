@@ -27,26 +27,10 @@ const service = {
         'Various width & height options',
       ],
       images: [
-        {
-          src: '/gallery/barn-door-frosted-glass.jpg',
-          title: 'Frosted Glass Door Panel',
-          description: 'Full-height frosted glass panel with satin chrome hardware for privacy and light diffusion',
-        },
-        {
-          src: '/gallery/barn-door-frosted-sliding.jpg',
-          title: 'Frosted Sliding Glass Partition',
-          description: 'Double frosted glass panels as room divider between kitchen and hallway',
-        },
-        {
-          src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Interior Glass Barn Door',
-          description: 'Glass panel room door on premium hardware',
-        },
-        {
-          src: 'https://images.pexels.com/photos/5997977/pexels-photo-5997977.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Glass Partition Barn Door',
-          description: 'Modern apartment glass panel sliding door',
-        },
+        { src: '/gallery/barn-door-frosted-glass.jpg', title: 'Frosted Glass Door Panel', description: 'Full-height frosted glass panel with satin chrome hardware for privacy and light diffusion' },
+        { src: '/gallery/barn-door-frosted-sliding.jpg', title: 'Frosted Sliding Glass Partition', description: 'Double frosted glass panels as room divider between kitchen and hallway' },
+        { src: '/gallery/barn-door-steel-frame-open.jpg', title: 'Steel-Frame Glass Barn Door – Open', description: 'Black steel-frame frosted glass barn door in open position' },
+        { src: '/gallery/barn-door-steel-frame-closed.jpg', title: 'Steel-Frame Glass Barn Door – Closed', description: 'Floor-to-ceiling black steel-frame frosted glass door panel' },
       ],
     },
     {
@@ -62,13 +46,7 @@ const service = {
         'Floor guide included',
         'Multiple lock options',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/3801167/pexels-photo-3801167.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Office Glass Barn Door',
-          description: 'Modern office glass sliding partition door',
-        },
-      ],
+      images: [],
     },
     {
       id: 'custom',
@@ -83,13 +61,7 @@ const service = {
         'Commercial load capacity',
         'Custom lengths available',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Premium Barn Door Hardware',
-          description: 'High-quality matte black track and hardware system',
-        },
-      ],
+      images: [],
     },
   ],
 };

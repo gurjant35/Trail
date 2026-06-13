@@ -27,31 +27,12 @@ const showerGlassService = {
         'Chrome, matte black or gold hardware',
       ],
       images: [
-        {
-          src: '/gallery/shower-frameless-matte-black.jpg',
-          title: 'Frameless Shower – Matte Black Hardware',
-          description: 'Custom frameless enclosure with 10mm glass and matte black fittings',
-        },
-        {
-          src: '/gallery/shower-frameless-angle.jpg',
-          title: 'Frameless Inline Shower – Side View',
-          description: 'Clean lines, dark-tile floor and white vertical tile surround',
-        },
-        {
-          src: 'https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Frameless Inline Shower',
-          description: 'Crystal-clear frameless glass shower enclosure',
-        },
-        {
-          src: 'https://images.pexels.com/photos/7168077/pexels-photo-7168077.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Modern Shower Room with Glass Door',
-          description: 'Sleek glass door shower with matte black hardware',
-        },
-        {
-          src: 'https://images.pexels.com/photos/6436770/pexels-photo-6436770.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Walk-In Shower Cabin',
-          description: 'Open-concept walk-in shower with tile surround',
-        },
+        { src: '/gallery/shower-frameless-matte-black.jpg', title: 'Frameless Shower – Matte Black Hardware', description: 'Custom frameless enclosure with 10mm glass and matte black fittings' },
+        { src: '/gallery/shower-frameless-angle.jpg', title: 'Frameless Inline Shower – Side View', description: 'Clean lines with dark-tile floor and white vertical tile surround' },
+        { src: '/gallery/shower-subway-tile-black.jpg', title: 'Subway Tile Shower – Matte Black', description: 'Frameless glass door with glossy subway tile walls and hex floor' },
+        { src: '/gallery/shower-walkin-black-frame.jpg', title: 'Walk-In Shower – Black Frame Panel', description: 'Minimalist walk-in shower with black-frame glass panel' },
+        { src: '/gallery/shower-walkin-panel.jpg', title: 'Walk-In Frameless Panel Shower', description: 'Single-panel walk-in shower with matte black top rail' },
+        { src: '/gallery/shower-checkerboard-floor.jpg', title: 'Frameless Shower – Checkerboard Floor', description: 'Clean frameless enclosure above classic black-and-white marble floor' },
       ],
     },
     {
@@ -68,26 +49,14 @@ const showerGlassService = {
         'Anti-limescale glass coating',
       ],
       images: [
-        {
-          src: '/gallery/shower-double-marble.jpg',
-          title: 'Double Shower – Full Marble Surround',
-          description: 'Dual-head frameless shower with Calacatta marble walls and matte black hardware',
-        },
-        {
-          src: 'https://images.pexels.com/photos/6523301/pexels-photo-6523301.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'L-Shape Shower Cabin',
-          description: 'Premium corner shower enclosure with glass panels',
-        },
-        {
-          src: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Luxury L-Shape Bathroom',
-          description: 'High-end L-shape shower with gold accents',
-        },
+        { src: '/gallery/shower-double-marble.jpg', title: 'Double Shower – Calacatta Marble', description: 'Dual-head frameless shower with full marble surround and matte black hardware' },
+        { src: '/gallery/shower-gold-hardware-marble.jpg', title: 'L-Shape Shower – Brushed Gold Hardware', description: 'Frameless L-shape enclosure with brushed gold fittings and marble surround' },
+        { src: '/gallery/shower-lshape-marble-tub.jpg', title: 'L-Shape Shower – Marble & Freestanding Tub', description: 'Matte black hardware L-shape with marble walls and adjacent soaker tub' },
       ],
     },
     {
       id: 'neo-angle',
-      title: 'Neo Angle Shower',
+      title: 'Neo Angle & Corner Shower',
       description:
         'Neo angle showers feature angled panels that elegantly fit into corner spaces while maximizing floor area. A distinctive choice that combines form and function beautifully.',
       benefits: [
@@ -99,16 +68,8 @@ const showerGlassService = {
         '5-year hardware warranty',
       ],
       images: [
-        {
-          src: 'https://images.pexels.com/photos/7018822/pexels-photo-7018822.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Contemporary Shower Enclosure',
-          description: 'Neo angle glass enclosure with clean tiling',
-        },
-        {
-          src: 'https://images.pexels.com/photos/271631/pexels-photo-271631.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Clear Glass Shower Room',
-          description: 'Crystal-clear neo angle corner shower',
-        },
+        { src: '/gallery/shower-corner-chrome.jpg', title: 'Corner Neo Angle Shower', description: 'Frameless corner shower with chrome hardware and light beige tile' },
+        { src: '/gallery/shower-sliding-chrome-marble.jpg', title: 'Sliding Shower Door – Chrome & Marble', description: 'Sliding bypass shower door with chrome hardware and marble-look panels' },
       ],
     },
     {
@@ -125,26 +86,11 @@ const showerGlassService = {
         'Complex geometry welcome',
       ],
       images: [
-        {
-          src: '/gallery/shower-dark-marble-spa.jpg',
-          title: 'Spa-Style Shower – Dark Marble',
-          description: 'Frameless glass enclosure with dark Nero marble surround and pebble floor',
-        },
-        {
-          src: 'https://images.pexels.com/photos/19227243/pexels-photo-19227243.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Luxury Custom Shower',
-          description: 'Bespoke designer bathroom with premium glass',
-        },
-        {
-          src: 'https://images.pexels.com/photos/7168077/pexels-photo-7168077.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Designer Glass Shower',
-          description: 'Custom frameless shower with black hardware',
-        },
-        {
-          src: 'https://images.pexels.com/photos/6523301/pexels-photo-6523301.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Open Plan Wet Room',
-          description: 'Seamless wet room glass enclosure',
-        },
+        { src: '/gallery/shower-dark-marble-spa.jpg', title: 'Spa Shower – Dark Nero Marble', description: 'Frameless glass enclosure with dark marble surround and pebble floor' },
+        { src: '/gallery/shower-large-pebble-floor.jpg', title: 'Large Walk-In Shower – Pebble Floor', description: 'Wide frameless walk-in enclosure with pebble mosaic floor' },
+        { src: '/gallery/shower-gold-gray-tile.jpg', title: 'Shower – Gold Hardware & Gray Tile', description: 'Semi-frameless shower with champagne gold fittings in gray tile niche' },
+        { src: '/gallery/shower-ribbed-glass-luxury.jpg', title: 'Ribbed Glass Shower Door – Luxury Bath', description: 'Fluted glass door panel in a luxury bathroom with freestanding tub' },
+        { src: '/gallery/shower-sliding-sauna.jpg', title: 'Sliding Shower Door – Cedar Sauna Interior', description: 'Custom sliding glass door opening into cedar-lined steam room' },
       ],
     },
   ],

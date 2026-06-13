@@ -27,21 +27,9 @@ const service = {
         'Custom panel sizes',
       ],
       images: [
-        {
-          src: '/gallery/closet-ribbed-glass-sliding.jpg',
-          title: 'Ribbed Glass Sliding Closet Doors',
-          description: 'Reeded/fluted glass panels in champagne aluminum frames against marble-look wall',
-        },
-        {
-          src: 'https://images.pexels.com/photos/7027723/pexels-photo-7027723.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Glass Panel Sliding Door',
-          description: 'Premium room divider with glass panel sliding doors',
-        },
-        {
-          src: 'https://images.pexels.com/photos/18285949/pexels-photo-18285949.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Luxurious Bedroom Closet',
-          description: 'Luxury bedroom with elegant wardrobe doors',
-        },
+        { src: '/gallery/closet-ribbed-glass-sliding.jpg', title: 'Ribbed Glass Sliding Closet Doors', description: 'Reeded/fluted glass panels in champagne aluminum frames against marble-look wall' },
+        { src: '/gallery/closet-three-panel-frosted-mirror.jpg', title: 'Three-Panel Closet – Frosted & Mirror', description: 'Black-frame three-panel sliding closet with frosted glass and centre mirror' },
+        { src: '/gallery/closet-frosted-white-frame.jpg', title: 'Frosted Glass Sliding Closet Doors', description: 'Two-panel frosted glass closet doors with clean white frame' },
       ],
     },
     {
@@ -57,13 +45,7 @@ const service = {
         'Double door configurations',
         'Custom handle selection',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/18285949/pexels-photo-18285949.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Premium Hinged Closet Door',
-          description: 'Floor-to-ceiling hinged glass closet door',
-        },
-      ],
+      images: [],
     },
     {
       id: 'mirrored',
@@ -78,18 +60,7 @@ const service = {
         'Anti-fog coatings available',
         'Custom etching & designs',
       ],
-      images: [
-        {
-          src: 'https://images.pexels.com/photos/3875522/pexels-photo-3875522.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Full-Length Vanity Mirrors',
-          description: 'Premium floor-to-ceiling mirrored wardrobe panels',
-        },
-        {
-          src: 'https://images.pexels.com/photos/16501294/pexels-photo-16501294.jpeg?auto=compress&cs=tinysrgb&w=800&h=600',
-          title: 'Mirror Closet Reflection',
-          description: 'Seamless mirrored door with frameless edge',
-        },
-      ],
+      images: [],
     },
   ],
 };
