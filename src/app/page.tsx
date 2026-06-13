@@ -3,7 +3,6 @@ import ServicesSection from '@/components/ServicesSection';
 import QuoteSection from '@/components/QuoteSection';
 import Testimonials from '@/components/Testimonials';
 import BeforeAfterSlider from '@/components/BeforeAfterSlider';
-import { motion } from 'framer-motion';
 import WhyUsSection from '@/components/WhyUsSection';
 import ProcessSection from '@/components/ProcessSection';
 
